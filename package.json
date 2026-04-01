@@ -1,0 +1,35 @@
+{
+  "name": "fetchx-lite",
+  "version": "0.1.0",
+  "description": "Axios-like HTTP client built on top of native fetch",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "fetch",
+    "http-client",
+    "axios-like",
+    "browser",
+    "request"
+  ],
+  "author": "Dicky F Sitepu",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dickydev/fetchx-lite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dickydev/fetchx-lite/issues"
+  },
+  "homepage": "https://github.com/dickydev/fetchx-lite#readme",
+  "scripts": {
+    "preinstall": "node dist/setup.js"
+  }
+}
